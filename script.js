@@ -52,7 +52,7 @@ function addUpButton() {
     document.body.append(button);
     document.addEventListener('scroll', (e) => {
         if (window.scrollY > window.innerHeight - 100) {
-            button.style.bottom = '15px';
+            button.style.bottom = '25px';
         } else {
             button.style.bottom = '-80px';
         }

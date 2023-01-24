@@ -230,7 +230,7 @@ body {
     color: #A93226;
 }
 
-/* МЕНЮ БУРГЕР */
+/* *********** МЕНЮ БУРГЕР ************* */
 @media (max-width: 767px) {
     .blend {
         position: fixed;
@@ -335,7 +335,8 @@ body {
         top: -100%;
         left: 35%;
         width: 100%;
-        height: 65%;
+        height: 90%;
+        opacity: 0.9;
         overflow: auto;
         border-radius: 5px;
         -webkit-transition: all 0.3s ease-in;
@@ -359,7 +360,7 @@ body {
     }
 }
 
-/* КОНТЕНТНАЯ ЧАСТЬ */
+/* *************** КОНТЕНТНАЯ ЧАСТЬ ************ */
 .content {
     width: 70%;
     margin: 0 auto;
@@ -686,8 +687,11 @@ body {
     margin-top: 3rem;
     width: 100%;
     font-size: 18px;
-    text-align: justify;
     line-height: 1.3;
+}
+
+.content__massage ol li {
+    text-align: justify;
 }
 
 .content__massage span {
@@ -695,11 +699,13 @@ body {
 }
 
 .content__massage ul li {
+    text-align: left;
     list-style-type: square;
     list-style-position: inside;
 }
 
 .massage_info ul li {
+    text-align: justify;
     list-style-position: outside;
 }
 
@@ -1020,7 +1026,7 @@ body {
     height: 40px;
     position: fixed;
     bottom: -80px;
-    right: 25px;
+    right: 29px;
     cursor: pointer;
     -webkit-transition: all .7s ease-in-out;
     -o-transition: all .7s ease-in-out;
