@@ -5,7 +5,7 @@ const canvas = document.getElementById("canvas");
 const ctx = canvas.getContext("2d");
 const width = 300;
 const height = 60;
-const COLOR = "#228B22";
+const COLOR = "#138808";
 
 let speed = 1;
 let scanBarWidth = 20;
