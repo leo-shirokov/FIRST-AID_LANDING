@@ -1,0 +1,21 @@
+.upbtn {
+  background-image: url(img/chevron.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  z-index: 100;
+  width: 40px;
+  height: 40px;
+  position: fixed;
+  bottom: -80px;
+  right: 29px;
+  cursor: pointer;
+  -webkit-transition: all 0.7s ease-in-out;
+  -o-transition: all 0.7s ease-in-out;
+  transition: all 0.7s ease-in-out;
+}
+
+.upbtn:hover {
+  -webkit-animation: electro 0.3s linear 1;
+  animation: electro 0.3s linear 1;
+}

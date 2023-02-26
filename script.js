@@ -69,5 +69,3 @@ overrideAnchors();
 addUpButton();
 burgerButton.addEventListener('click', toggleMenu);
 blend.addEventListener('click', toggleMenu);
-
-// Up button
